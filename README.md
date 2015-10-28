@@ -1,3 +1,4 @@
+```
       ______            _            __                 _        __                       
      |_   _ \          (_)          [  |               (_)      |  ]                      
        | |_) |  ,--.   __   _ .--.   | |.--.   _ .--.  __   .--.| |  .--./) .---.         
@@ -12,14 +13,16 @@
      \/  \/      \______.'|_____|     \______.' `.____ .'|____||____||________||______.'  
                                                                                           
     A Seattle-Bainbridge Washington State Ferry (WSF) Schedule Display Tool for the CLI
-
+```
 
 
 Author:  Ben Rockwood <benr@cuddletech>
 Date:    10/27/15
 License: BSD 
 
-==Purpose==
+---
+
+# Purpose
 
 This tool was created for 2 reasons: 
 
@@ -28,7 +31,7 @@ This tool was created for 2 reasons:
 
 It is _not_ intended to be a multi-purpose tool.
 
-==Usage==
+# Usage
 
 This tool queries the Washington State Ferry (WSF) API for Ferry Schedules.  To use this 
 API you must obtain an Access Key, this is quick and easy, just supply your email address
@@ -44,6 +47,6 @@ Then execute the tool either using _go run wsf.go_ or build and install via _go 
 
 No arguments are required for use. 
 
-==See Also==
+# See Also
 
 To learn more about the Washington State Department of Transpertation (WSDOT) and Washington State Ferry (WSF) API's, visit http://www.wsdot.wa.gov/traffic/api/
