@@ -16,9 +16,9 @@
 ```
 
 
-| __Author:__  | Ben Rockwood <benr@cuddletech> |
-| __Date:__    | 10/27/15                       |
-| __License:__ | BSD                            |
+* __Author:__ Ben Rockwood <benr@cuddletech>
+* __Created:__  10/27/15
+* __License:__  BSD
 
 ---
 
