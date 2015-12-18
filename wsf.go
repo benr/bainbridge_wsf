@@ -31,7 +31,7 @@ type Schedule struct {
 
 
 func apidate(date string) time.Time {
-      regex := regexp.MustCompile(`/Date\(([0-9]+)000-0700\)/`)
+      regex := regexp.MustCompile(`/Date\(([0-9]+)000-0[\d]00\)/`)
 
       time_string := regex.FindStringSubmatch(date)[1]
       time_int, _  := strconv.Atoi(time_string)
