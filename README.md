@@ -47,6 +47,33 @@ Then execute the tool either using _go run wsf.go_ or build and install via _go 
 
 No arguments are required for use. 
 
+For static compilation, use:
+
+```bash
+$ CGO_ENABLED=0 go build -a -installsuffix cgo -ldflags '-s' 
+```
+
+# Dockerization
+
+To create a docker container of this tool, run _make docker_.  The resulting image will be named **cuddletech/wsf**.
+
+Run the container like so:
+
+```bash
+$ docker run -it -e WSFAPI=fb2cc927-43e7-XXXXXX-XXXXX-XXXXXXXXXX cuddletech/wsf
+Spring 2016
+Seattle --> Bainbridge Island 
+  12:30   --  Wenatchee (1)
+  13:10   --  Tacoma (2)
+  14:05   --  Wenatchee (1)
+  14:55   --  Tacoma (2)
+  15:45   --  Wenatchee (1)
+  16:35   --  Tacoma (2)
+  17:40   --  Wenatchee (1)
+  18:25   --  Tacoma (2)
+ ....
+```
+
 # See Also
 
 To learn more about the Washington State Department of Transpertation (WSDOT) and Washington State Ferry (WSF) API's, visit http://www.wsdot.wa.gov/traffic/api/
