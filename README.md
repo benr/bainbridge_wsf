@@ -15,7 +15,6 @@
     A Seattle-Bainbridge Washington State Ferry (WSF) Schedule Display Tool for the CLI
 ```
 
-
 * __Author:__ Ben Rockwood <benr@cuddletech>
 * __Created:__  10/27/15
 * __License:__  BSD
